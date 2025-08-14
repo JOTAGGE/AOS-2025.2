@@ -4,10 +4,18 @@
   "description": "Atividade 01 do curso de Node.js + Express + PostgreeSQL",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon src/index.js",
     "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["node", "express", "postgresql"],
+  "keywords": [
+    "node",
+    "express",
+    "postgresql"
+  ],
   "author": "josé Gabriel Barros Dos Santos",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
