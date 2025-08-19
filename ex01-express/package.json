@@ -1,8 +1,8 @@
 {
-  "name": "ex01-express",
+  "name": "aos-2025.2",
   "version": "1.0.0",
   "description": "Atividade 01 do curso de Node.js + Express + PostgreeSQL",
-  "main": "index.js",
+  "main": "ex01-express/src/index.js",
   "scripts": {
     "dev": "nodemon src/index.js",
     "start": "node src/index.js",
