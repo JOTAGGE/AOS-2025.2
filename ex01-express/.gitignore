@@ -1,0 +1,19 @@
+# Pasta de dependências do Node.js
+/node_modules
+
+# Arquivos de variáveis de ambiente com segredos
+.env
+
+# Lixo do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de log
+*.log
+/logs
+
+# Coisas geradas pelo VSCode
+.vscode/
+
+# Build do Vercel
+.vercel/
