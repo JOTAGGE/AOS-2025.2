@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon src/index.js",
     "start": "node src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Testes futuros em construção camarada\" && exit 0"
   },
   "keywords": [
     "node",
@@ -16,6 +16,14 @@
   "author": "josé Gabriel Barros Dos Santos",
   "license": "MIT",
   "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.3",
+    "@babel/node": "^7.28.0",
+    "@babel/preset-env": "^7.28.3",
     "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0"
   }
 }
