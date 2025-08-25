@@ -4,8 +4,8 @@
   "description": "Atividade 01 do curso de Node.js + Express + PostgreeSQL",
   "main": "ex01-express/src/api/index.js",
   "scripts": {
-    "dev": "nodemon src/index.js",
-    "start": "node src/index.js",
+    "dev": "nodemon src/api/index.js",
+    "start": "node src/api/index.js",
     "test": "echo \"Testes futuros em construção camarada\" && exit 0"
   },
   "keywords": [
